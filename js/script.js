@@ -151,6 +151,14 @@ function random() {
 
 function render_sn(data) {
 
+	$('link[rel=stylesheet][href*="css/main.css"]').remove();
+
+	var style_sheet = document.createElement("link");
+    style_sheet.setAttribute("rel", "stylesheet");
+    style_sheet.setAttribute("type", "text/css");
+    style_sheet.setAttribute("href", "css/main2.css");
+    document.getElementsByTagName("head")[0].appendChild(style_sheet);
+
 	$(".window").remove();
 
 	var object = data.query.pages;
