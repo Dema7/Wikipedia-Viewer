@@ -1,0 +1,156 @@
+html {
+	font-size: 16px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+	background-color: #ffe6e6;
+}
+
+.align {
+	text-align: center;
+}
+
+#first_h1 {
+	margin-top: 30px;
+	font-family: 'Sigmar One', cursive;
+}
+
+#first_h3 {
+	margin-bottom: 30px;
+	font-family: 'Economica', sans-serif;
+	font-size: 1.8rem;
+}
+
+#sb {
+	margin-bottom: 10px;
+}
+
+#sb input {
+	width: 200px;
+	height: 38px;
+	font-size: 1.5rem;
+	font-family: 'Economica', sans-serif;
+	border-radius: 5px;
+	border: 1px solid black;
+	box-shadow: 0px 0px 10px #b3b3b3 inset;
+}
+
+#sb input:focus {
+	outline: 0;
+}
+
+#sb label {
+	font-family: 'Economica', sans-serif;
+	font-size: 1.5rem;
+}
+
+#first_btn button {
+	width: 100px;
+	padding: 5px;
+	font-size: 1.5rem;
+	border-radius: 5px;
+	background-color: red;
+	color: white;
+	box-shadow: 0px 0px 10px #b30000 inset;
+	border: none;
+}
+
+#first_btn button:focus {
+	outline: 0;
+}
+
+#second_h1 {
+	margin-top: 30px;
+	font-family: 'Sigmar One', cursive;
+}
+
+#second_h3 {
+	margin-bottom: 30px;
+	font-family: 'Economica', sans-serif;
+	font-size: 1.8rem;
+}
+
+#second_btn button {
+	width: 100px;
+	padding: 5px;
+	font-size: 1.5rem;
+	border-radius: 5px;
+	background-color: #ff9933;
+	color: white;
+	box-shadow: 0px 0px 10px #cc6600 inset;
+	border: none;
+}
+
+#second_btn button:focus {
+	outline: 0;
+}
+
+.window {
+	width: 70%;
+	height: 150px;
+	border: 1px solid #999900;
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-top: 20px;
+	overflow: hidden;
+	background-color: #ffffcc;
+	box-shadow: 0px 0px 50px #cccc00 inset;
+	transition: width 1s;
+	-o-transition: width 1s;
+	-moz-transition: width 1s;
+	-webkit-transition: width 1s;
+}
+
+.window:hover {
+	width: 75%;
+}
+
+.window h3 {
+	font-family: 'Sigmar One', cursive;
+}
+
+.window p {
+	font-family: 'Economica', sans-serif;
+	padding: 10px;
+}
+
+.hyper {
+	text-decoration: none;
+	color: black;
+}
+
+@media only screen and (max-width: 415px) {
+
+	#sb label {
+		display: none;
+	}
+
+}
+
+@media only screen and (max-width: 321px) {
+
+    #first_h1 {
+    	font-size: 1.5rem;
+    }
+
+    #second_h1 {
+    	font-size: 1.5rem;
+    }
+
+    #first_h3 {
+    	font-size: 1.2rem;
+    }
+
+    #second_h3 {
+    	font-size: 1.2rem;
+    }
+
+}
